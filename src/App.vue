@@ -1,58 +1,66 @@
 <template>
-    ref系列: <refTest></refTest>
-    <hr />
-    reactive系列: <ReactiveTest></ReactiveTest>
+<!--    ref系列: <refTest></refTest>-->
+<!--    <hr />-->
+<!--    reactive系列: <ReactiveTest></ReactiveTest>-->
 
-    <hr />
-    to系列： <ToTest></ToTest>
+<!--    <hr />-->
+<!--    to系列： <ToTest></ToTest>-->
 
-    <hr />
-    vue3响应式原理：
-    <Test></Test>
+<!--    <hr />-->
+<!--    vue3响应式原理：-->
+<!--    <Test></Test>-->
 
-    <hr />
-    computed计算属性：
-    <Computeds></Computeds>
+<!--    <hr />-->
+<!--    computed计算属性：-->
+<!--    <Computeds></Computeds>-->
 
-    <hr />
-    watch监听：
-    <Watchs></Watchs>
+<!--    <hr />-->
+<!--    watch监听：-->
+<!--    <Watchs></Watchs>-->
 
-    <hr />
-    生命周期：
-    <LifeCycle></LifeCycle>
+<!--    <hr />-->
+<!--    生命周期：-->
+<!--    <LifeCycle></LifeCycle>-->
 
-    <hr />
-    父子组件的传值：
-    <Father></Father>
+<!--    <hr />-->
+<!--    父子组件的传值：-->
+<!--    <Father></Father>-->
 
 <!--    <hr />-->
 <!--    瀑布流布局：-->
 <!--    <Full></Full>-->
 
-    <hr />
-    插槽：
-    <Slots></Slots>
+<!--    <hr />-->
+<!--    插槽：-->
+<!--    <Slots></Slots>-->
+
+<!--    <hr />-->
+<!--    异步组件（代码分割）：-->
+<!--    <AsyncComponent></AsyncComponent>-->
+
+<!--    <hr />-->
+<!--    transition动画：-->
+<!--    <Transitions></Transitions>-->
+
+<!--    <hr />-->
+<!--    provide 和 inject：-->
+<!--    <ProvideInject></ProvideInject>-->
+
+<!--    <hr />-->
+<!--    手写eventBus：-->
+<!--    <EventBus></EventBus>-->
+
+<!--    <hr />-->
+<!--    mitt使用：-->
+<!--    <Mitt></Mitt>-->
 
     <hr />
-    异步组件（代码分割）：
-    <AsyncComponent></AsyncComponent>
+    vModel父子之间的双向绑定:
+    <VModel></VModel>
 
     <hr />
-    transition动画：
-    <Transitions></Transitions>
-
-    <hr />
-    provide 和 inject：
-    <ProvideInject></ProvideInject>
-
-    <hr />
-    手写eventBus：
-    <EventBus></EventBus>
-
-    <hr />
-    mitt使用：
-    <Mitt></Mitt>
+    自定义指令:
+    <Directives></Directives>
 </template>
 
 <script setup lang="ts">
@@ -86,6 +94,10 @@
     import EventBus from "./components/手写eventBus/Father.vue"
     // @ts-ignore
     import Mitt from "./components/mitt使用/Father.vue"
+    // @ts-ignore
+    import VModel from "./components/vModel使用/Father.vue"
+    // @ts-ignore
+    import Directives from "./components/自定义指令/Directive.vue"
 </script>
 
 <style scoped>
