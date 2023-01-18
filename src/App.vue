@@ -54,13 +54,21 @@
 <!--    mitt使用：-->
 <!--    <Mitt></Mitt>-->
 
-    <hr />
-    vModel父子之间的双向绑定:
-    <VModel></VModel>
+<!--    <hr />-->
+<!--    vModel父子之间的双向绑定:-->
+<!--    <VModel></VModel>-->
+
+<!--    <hr />-->
+<!--    自定义指令:-->
+<!--    <Directives></Directives>-->
 
     <hr />
-    自定义指令:
-    <Directives></Directives>
+    全局变量:
+    <Gloable></Gloable>
+
+    <hr />
+    vue插件（vue.use()）:
+    <plugins></plugins>
 </template>
 
 <script setup lang="ts">
@@ -98,6 +106,10 @@
     import VModel from "./components/vModel使用/Father.vue"
     // @ts-ignore
     import Directives from "./components/自定义指令/Directive.vue"
+    // @ts-ignore
+    import Gloable from "./components/全局变量/Index.vue"
+    // @ts-ignore
+    import plugins from "./components/vue插件/Index.vue"
 </script>
 
 <style scoped>
